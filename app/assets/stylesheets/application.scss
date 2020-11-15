@@ -1,0 +1,125 @@
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600&display=swap');
+
+body {
+    background-image: url("https://storage.needpix.com/rsynced_images/notebook-page.jpg");
+    font-family: 'Zilla Slab', serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.title {
+    margin: 1vh 2vw 1vh 2vw;
+    color: white;
+}
+
+.headerNav {
+    margin: 2vh 3vw 2vh 40vw;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.contact-me {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.nav-item {
+    color: black;
+}
+
+.dropdown-link {
+    color: black !important;
+}
+
+#header {
+    display: flex;
+    background-color: #1B4D9E;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#button {
+    margin-top: 2vh;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#seasonButton {
+    margin-top: 3vh;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.seasonTitle {
+    margin-top: 2vh;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.episode-box {
+    background-color: #424242;
+    color: white;
+    width: 45vw;
+    padding: 15px;
+    margin-top: 20vh;
+    border-radius: 10px;
+}
+
+.season-episode-box {
+    background-color: #424242;
+    color: white;
+    width: 45vw;
+    padding: 15px;
+    margin-top: 17vh;
+    border-radius: 10px;
+}
+
+.seasonList {
+    margin-top: 3vh;
+}
+
+h5 {
+    margin: 5px;
+    color: #1B4D9E !important;
+}
+
+.form-box {
+    background-color: #424242;
+    color: white;
+    width: 45vw;
+    padding: 15px;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+#contact-blurb{
+    margin-top: 10vh;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contactButton {
+    background-color: #1B4D9E;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
